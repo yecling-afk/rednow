@@ -1,0 +1,64 @@
+
+{
+  "name": "RedNow Visual Design System",
+  "version": "1.0",
+  "canvas": {
+    "background": "#000000",
+    "frame": {
+      "width": 1440,
+      "height": 3200,
+      "name": "Home - Desktop"
+    }
+  },
+  "tokens": {
+    "colors": {
+      "primary": "#FF0000",
+      "background": "#000000",
+      "surface": "#111111",
+      "text-main": "#FFFFFF",
+      "text-dim": "rgba(255, 255, 255, 0.4)"
+    },
+    "typography": {
+      "h1": {
+        "family": "Inter",
+        "weight": "900",
+        "size": "72px",
+        "letterSpacing": "-0.05em"
+      },
+      "label": {
+        "family": "Inter",
+        "weight": "800",
+        "size": "10px",
+        "letterSpacing": "0.4em",
+        "case": "uppercase"
+      }
+    }
+  },
+  "layers": [
+    {
+      "name": "Navbar",
+      "type": "FRAME",
+      "y": 0,
+      "height": 80,
+      "backgroundColor": "rgba(0,0,0,0.8)",
+      "borderBottom": "#FF00001A"
+    },
+    {
+      "name": "Hero Section",
+      "type": "FRAME",
+      "y": 80,
+      "height": 900,
+      "children": [
+        { "name": "Dynamic Aura", "type": "GRADIENT", "style": "radial", "colors": ["#FF0000B3", "transparent"] },
+        { "name": "Horizontal Input Bar", "type": "FRAME", "borderRadius": 40, "border": "#FF00004D", "background": "#11111199" }
+      ]
+    },
+    {
+      "name": "Video Grid",
+      "type": "FRAME",
+      "y": 980,
+      "layout": "GRID",
+      "columns": 3
+    }
+  ]
+}

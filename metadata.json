@@ -1,0 +1,8 @@
+{
+  "name": "RedNow: Elite Video Network",
+  "description": "A high-performance video transmission platform featuring elite content and seamless creative uplinks, styled with a high-contrast red-on-black aesthetic.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
